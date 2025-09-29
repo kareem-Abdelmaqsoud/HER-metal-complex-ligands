@@ -177,10 +177,6 @@ def calculate_descriptors(mol, mol_name):
         'TPSA': rdMolDescriptors.CalcTPSA(mol),  # Topological polar surface area
         
         # Topological descriptors
-        # 'BertzCT': rdMolDescriptors.BertzCT(mol),  # Complexity
-        # 'Chi0v': rdMolDescriptors.Chi0v(mol),  # Connectivity index
-        # 'Kappa1': rdMolDescriptors.Kappa1(mol),  # Shape index
-
         'BertzCT': Descriptors.BertzCT(mol),  # Complexity
         'Chi0v': Descriptors.Chi0v(mol),  # Connectivity index
         'Kappa1': Descriptors.Kappa1(mol),  # Shape index
@@ -212,3 +208,15 @@ def analyze_substructures(molecules_dict, patterns_dict):
         results.append(row)
     
     return pd.DataFrame(results)
+
+if __name__ == "__main__":
+    print("Available Descriptors from rdkit.Chem.Descriptors:")
+    print("=" * 50)
+    for desc_name in dir(Descriptors):
+        if not desc_name.startswith('_') and callable(getattr(Descriptors, desc_name)):
+            print(f"- {desc_name}")
+    print("\nAvailable Descriptors from rdkit.Chem.rdMolDescriptors (some might overlap):")
+    print("=" * 70)
+    for desc_name in dir(rdMolDescriptors):
+        if not desc_name.startswith('_') and callable(getattr(rdMolDescriptors, desc_name)):
+            print(f"- {desc_name}")
