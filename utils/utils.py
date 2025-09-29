@@ -81,7 +81,7 @@ def visualize_similarity(sim_matrix, names, cmap, fp_name, sim_name):
 
     fig, ax = plt.subplots(figsize=(16, 12))
 
-    # Create heatmap with MML course colors
+    # Create heatmap
     sns.heatmap(sim_matrix, 
                 xticklabels=names, 
                 yticklabels=names,
@@ -117,7 +117,7 @@ def visualize_similarity_interactive(sim_matrix, names, cmap, fp_name, sim_name)
     import plotly.express as px
     import numpy as np
 
-    colorscale = cmap  # Assuming cmap is a valid Plotly colorscale or matplotlib name
+    colorscale = cmap 
 
     # Create heatmap with Plotly
     fig = px.imshow(sim_matrix,
