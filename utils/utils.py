@@ -188,6 +188,19 @@ def calculate_descriptors(mol, mol_name):
     }
     
     return descriptors
+
+# def calculate_descriptors(mol, mol_name):
+#     """
+#     Calculate a comprehensive set of molecular descriptors using RDKit's CalcMolDescriptors.
+#     """
+    
+#     # Get all standard RDKit descriptors
+#     all_rdkit_descriptors = Descriptors.CalcMolDescriptors(mol)
+    
+#     # Add the molecule name to the dictionary
+#     all_rdkit_descriptors['Name'] = mol_name
+    
+#     return all_rdkit_descriptors
     
 def analyze_substructures(molecules_dict, patterns_dict):
     """Analyze substructure patterns in molecules"""
