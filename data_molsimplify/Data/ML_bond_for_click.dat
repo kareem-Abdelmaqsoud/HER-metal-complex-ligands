@@ -1,0 +1,8 @@
+# Default data for bond lengths (in A) between metal, connection atom and ligand
+# keys are metal, ox state, spin multiplicity, C-X BL (bondl_sub), X-M BL (bondl_m3D),C-M BL (bondl_core3D)
+## Default
+Cu - - - 1.19 1.88 3
+## triazoles
+# DOI = 10.1021/ja0471525
+Cu - - methylazide 1.19 1.88 3
+Cu 1 1 methylazide 1.19 1.88 3

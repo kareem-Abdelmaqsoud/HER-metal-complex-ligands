@@ -1,0 +1,23 @@
+# Default data for bond lengths (in A) between metal, connection atom and ligand
+# keys are sym, val, bo, ox state, spin multiplicity,
+# returns are MLS: bangle_m3D/bangle_m3Dsub/bangle_core3D/bangle_sub,
+# MLSS: bdihedral_m3D/bdihedral_m3Dsub/bdihedral_core3D/bdihedral_sub (angle from norm)
+# main group
+# octet = 2
+H 0 - - 180 0
+H 1 - - 180 0
+# octet = 8
+#C 0 - - 180 0
+#N 0 - - 180 0
+#O 0 - - 180 0
+C 1 - - 47 90
+N 1 - - 120 90
+O 1 - - 120 90
+C 2 - - 120 90
+N 2 - - 120 90
+O 2 - - 109 90
+C 3 - - 109 20
+N 3 - - 109 20
+# metals
+Cu -5 - - 90 90
+#Cu 3 - - 109 20
