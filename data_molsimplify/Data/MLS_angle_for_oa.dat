@@ -1,0 +1,18 @@
+# Default data for bond lengths (in A) between metal, connection atom and ligand
+# keys are metal, ox state, spin multiplicity, substrate, C-M-cpoint angle, rO-C-Ca angle
+# Default
+Cu - - - 145 94
+## aryl halides
+# DOI = 10.1021/om700573h
+Cu - - bromobenzene 145 94
+Cu 1 1 bromobenzene 145 94
+## triazoles
+# DOI = 10.1021/ja0471525
+Cu - - triazole 180 70
+Cu 1 1 triazole 180 70
+## Default
+Pd - - - 157 87
+# aryl halides
+# DOI = 10.1021/om049963n
+Pd - - bromobenzene 157 87
+Pd 1 1 bromobenzene 157 87

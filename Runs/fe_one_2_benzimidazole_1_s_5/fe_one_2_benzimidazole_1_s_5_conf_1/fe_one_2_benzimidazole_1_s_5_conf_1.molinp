@@ -1,0 +1,23 @@
+# Input file generated from molSimplify at 10/02/2025 03:43
+-checkdirb True
+-core Fe
+-oxstate 2
+-coord 1
+-geometry one
+-lig benzimidazole
+-ligocc 1
+-spin 5
+-keepHs auto
+-skipANN True
+-rundir /home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/HER-metal-complex-ligands/Runs
+-ffoption N
+-nconfs 1
+-charge 1
+-calccharge True
+-distort 0
+-qccode terachem
+-runtyp energy
+-method b3lyp
+-basis lacvps_ecp
+-jsched sge
+-bcharge 0

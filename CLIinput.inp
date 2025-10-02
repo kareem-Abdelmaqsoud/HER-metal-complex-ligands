@@ -1,0 +1,4 @@
+# molSimplify input file generated from CLI input
+-lig benzimidazole
+-ligocc 1
+-skipANN True

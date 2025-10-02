@@ -1,0 +1,10 @@
+# Default data for bond angle (in degree) between metal, connection atom and ligand
+# keys are metal, ox state, spin multiplicity, bangle_m3D, bangle_m3Dsub, bangle_core3D
+# hat, reacting atom = H
+# DOI = 10.1021/om700573h
+Pd - - H 35 35 35
+Pd 1 1 H 35 35 35
+# cat, reacting atom = C
+Pd - - C 63 116 120
+# DOI = 10.1021/ja0471525
+Cu - - N 84 121 143

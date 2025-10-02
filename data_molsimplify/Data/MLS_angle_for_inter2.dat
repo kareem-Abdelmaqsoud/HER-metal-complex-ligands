@@ -1,0 +1,48 @@
+# Default data for bond lengths (in A) between metal, connection atom and ligand
+# keys are metal, ox state, reacting atom, spin multiplicity, bangle_m3D, bangle_m3Dsub, bangle_core3D, bangle_sub
+# hat, reacting atom = H
+Co - - H 115 180 109
+Co 4 2 H 111 180 109
+Co 4 4 H 121 180 109
+Cr - - H 120 180 109
+Cr 4 3 H 120 180 109
+Fe - - H 120 180 109
+Fe 4 3 H 122 180 109
+Fe 4 5 H 127 180 109
+Fe 5 2 H 115 180 109
+Fe 5 4 H 115 180 109
+Mn - - H 120 180 109
+Mn 4 2 H 121 180 109
+Mn 4 4 H 118 180 109
+Mn 5 3 H 115 180 109
+# nat, reacting atom = N
+Co - - N 130 120 120
+Co 4 2 N 123 114 120
+Co 4 4 N 135 125 120
+Cr - - N 126 121 120
+Cr 4 3 N 126 121 120
+Fe - - N 135 135 120
+Fe 4 3 N 130 130 120
+Fe 4 5 N 137 130 120
+Fe 5 2 N 142 122 120
+Fe 5 4 N 140 125 120
+Mn - - N 137 126 120
+Mn 4 4 N 130 124 120
+Mn 5 3 N 143 128 120
+Cu - - N 106 121 143 138
+# cat, reacting atom = C
+Co - - C 105 103 120
+Co 4 2 C 105 103 120
+Co 4 4 C 105 103 120
+Cr - - C 105 103 120
+Cr 4 3 C 105 103 120
+Cr 5 2 C 105 103 120
+Fe - - C 105 103 120
+Fe 4 3 C 105 103 120
+Fe 4 5 C 105 103 120
+Fe 5 2 C 105 103 120
+Fe 5 4 C 105 103 120
+Mn - - C 105 103 120
+Mn 4 2 C 105 103 120
+Mn 4 4 C 105 103 120
+Mn 5 3 C 105 103 120
