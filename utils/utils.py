@@ -158,49 +158,49 @@ def visualize_similarity_interactive(sim_matrix, names, cmap, fp_name, sim_name)
     print(f"\nMost similar pair: {most_similar[0]} & {most_similar[1]} (Similarity: {max_sim:.3f})")
 
 
-def calculate_descriptors(mol, mol_name):
-    """Calculate important molecular descriptors"""
-    descriptors = {
-        'Name': mol_name,
-        
-        # Constitutional descriptors
-        'MW': Descriptors.MolWt(mol),
-        'HeavyAtoms': mol.GetNumHeavyAtoms(),
-        'NumBonds': mol.GetNumBonds(),
-        'NumRings': Descriptors.RingCount(mol),
-        'NumAromaticRings': Descriptors.NumAromaticRings(mol),
-        
-        # Lipinski descriptors (drug-likeness)
-        'LogP': Crippen.MolLogP(mol),
-        'HBD': Lipinski.NumHDonors(mol),  # H-bond donors
-        'HBA': Lipinski.NumHAcceptors(mol),  # H-bond acceptors
-        'TPSA': rdMolDescriptors.CalcTPSA(mol),  # Topological polar surface area
-        
-        # Topological descriptors
-        'BertzCT': Descriptors.BertzCT(mol),  # Complexity
-        'Chi0v': Descriptors.Chi0v(mol),  # Connectivity index
-        'Kappa1': Descriptors.Kappa1(mol),  # Shape index
-        
-        # Electronic descriptors  
-        'NumRotatableBonds': rdMolDescriptors.CalcNumRotatableBonds(mol),
-        # 'FractionCsp3': rdMolDescriptors.CalcFractionCsp3(mol)
-        'FractionCsp3': rdMolDescriptors.CalcFractionCSP3(mol)
-    }
-    
-    return descriptors
-
 # def calculate_descriptors(mol, mol_name):
-#     """
-#     Calculate a comprehensive set of molecular descriptors using RDKit's CalcMolDescriptors.
-#     """
+#     """Calculate important molecular descriptors"""
+#     descriptors = {
+#         'Name': mol_name,
+        
+#         # Constitutional descriptors
+#         'MW': Descriptors.MolWt(mol),
+#         'HeavyAtoms': mol.GetNumHeavyAtoms(),
+#         'NumBonds': mol.GetNumBonds(),
+#         'NumRings': Descriptors.RingCount(mol),
+#         'NumAromaticRings': Descriptors.NumAromaticRings(mol),
+        
+#         # Lipinski descriptors (drug-likeness)
+#         'LogP': Crippen.MolLogP(mol),
+#         'HBD': Lipinski.NumHDonors(mol),  # H-bond donors
+#         'HBA': Lipinski.NumHAcceptors(mol),  # H-bond acceptors
+#         'TPSA': rdMolDescriptors.CalcTPSA(mol),  # Topological polar surface area
+        
+#         # Topological descriptors
+#         'BertzCT': Descriptors.BertzCT(mol),  # Complexity
+#         'Chi0v': Descriptors.Chi0v(mol),  # Connectivity index
+#         'Kappa1': Descriptors.Kappa1(mol),  # Shape index
+        
+#         # Electronic descriptors  
+#         'NumRotatableBonds': rdMolDescriptors.CalcNumRotatableBonds(mol),
+#         # 'FractionCsp3': rdMolDescriptors.CalcFractionCsp3(mol)
+#         'FractionCsp3': rdMolDescriptors.CalcFractionCSP3(mol)
+#     }
     
-#     # Get all standard RDKit descriptors
-#     all_rdkit_descriptors = Descriptors.CalcMolDescriptors(mol)
+#     return descriptors
+
+def calculate_descriptors(mol, mol_name):
+    """
+    Calculate a comprehensive set of molecular descriptors using RDKit's CalcMolDescriptors.
+    """
     
-#     # Add the molecule name to the dictionary
-#     all_rdkit_descriptors['Name'] = mol_name
+    # Get all standard RDKit descriptors
+    all_rdkit_descriptors = Descriptors.CalcMolDescriptors(mol)
     
-#     return all_rdkit_descriptors
+    # Add the molecule name to the dictionary
+    all_rdkit_descriptors['Name'] = mol_name
+    
+    return all_rdkit_descriptors
     
 def analyze_substructures(molecules_dict, patterns_dict):
     """Analyze substructure patterns in molecules"""
