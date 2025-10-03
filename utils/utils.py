@@ -158,36 +158,36 @@ def visualize_similarity_interactive(sim_matrix, names, cmap, fp_name, sim_name)
     print(f"\nMost similar pair: {most_similar[0]} & {most_similar[1]} (Similarity: {max_sim:.3f})")
 
 
-# def calculate_descriptors(mol, mol_name):
-#     """Calculate important molecular descriptors"""
-#     descriptors = {
-#         'Name': mol_name,
+def calculate_descriptors_custom(mol, mol_name):
+    """Calculate important molecular descriptors"""
+    descriptors = {
+        'Name': mol_name,
         
-#         # Constitutional descriptors
-#         'MW': Descriptors.MolWt(mol),
-#         'HeavyAtoms': mol.GetNumHeavyAtoms(),
-#         'NumBonds': mol.GetNumBonds(),
-#         'NumRings': Descriptors.RingCount(mol),
-#         'NumAromaticRings': Descriptors.NumAromaticRings(mol),
+        # Constitutional descriptors
+        'MW': Descriptors.MolWt(mol),
+        'HeavyAtoms': mol.GetNumHeavyAtoms(),
+        'NumBonds': mol.GetNumBonds(),
+        'NumRings': Descriptors.RingCount(mol),
+        'NumAromaticRings': Descriptors.NumAromaticRings(mol),
         
-#         # Lipinski descriptors (drug-likeness)
-#         'LogP': Crippen.MolLogP(mol),
-#         'HBD': Lipinski.NumHDonors(mol),  # H-bond donors
-#         'HBA': Lipinski.NumHAcceptors(mol),  # H-bond acceptors
-#         'TPSA': rdMolDescriptors.CalcTPSA(mol),  # Topological polar surface area
+        # Lipinski descriptors (drug-likeness)
+        'LogP': Crippen.MolLogP(mol),
+        'HBD': Lipinski.NumHDonors(mol),  # H-bond donors
+        'HBA': Lipinski.NumHAcceptors(mol),  # H-bond acceptors
+        'TPSA': rdMolDescriptors.CalcTPSA(mol),  # Topological polar surface area
         
-#         # Topological descriptors
-#         'BertzCT': Descriptors.BertzCT(mol),  # Complexity
-#         'Chi0v': Descriptors.Chi0v(mol),  # Connectivity index
-#         'Kappa1': Descriptors.Kappa1(mol),  # Shape index
+        # Topological descriptors
+        'BertzCT': Descriptors.BertzCT(mol),  # Complexity
+        'Chi0v': Descriptors.Chi0v(mol),  # Connectivity index
+        'Kappa1': Descriptors.Kappa1(mol),  # Shape index
         
-#         # Electronic descriptors  
-#         'NumRotatableBonds': rdMolDescriptors.CalcNumRotatableBonds(mol),
-#         # 'FractionCsp3': rdMolDescriptors.CalcFractionCsp3(mol)
-#         'FractionCsp3': rdMolDescriptors.CalcFractionCSP3(mol)
-#     }
+        # Electronic descriptors  
+        'NumRotatableBonds': rdMolDescriptors.CalcNumRotatableBonds(mol),
+        # 'FractionCsp3': rdMolDescriptors.CalcFractionCsp3(mol)
+        'FractionCsp3': rdMolDescriptors.CalcFractionCSP3(mol)
+    }
     
-#     return descriptors
+    return descriptors
 
 def calculate_descriptors(mol, mol_name):
     """
