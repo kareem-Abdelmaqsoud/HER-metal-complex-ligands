@@ -1,4 +1,5 @@
 # molSimplify input file generated from CLI input
--lig benzimidazole
--ligocc 1
+-ligadd S=C1NC=CC=C1
+-ligname 2-mercaptopyridine
+-ligcon 1
 -skipANN True

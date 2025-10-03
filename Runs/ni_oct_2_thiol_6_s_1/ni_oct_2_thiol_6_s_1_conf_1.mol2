@@ -1,0 +1,38 @@
+@<TRIPOS>MOLECULE
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/HER-metal-complex-ligands/Runs//ni_oct_2_thiol_6_s_1/ni_oct_2_thiol_6_s_1_conf_1
+13	12	1
+SMALL
+PartialCharges
+****
+Generated from molSimplify
+
+@<TRIPOS>ATOM
+1 Ni1	0.0  0.0  0.0 Ni	1 RES1 0.0
+2 S1	0.0  2.531681  0.0 S.3	1 RES1 0.0
+3 H1	0.0  3.939045  0.0 H	1 RES1 0.0
+4 S2	2.531681  -0.0  0.0 S.3	1 RES1 0.0
+5 H2	3.939045  -0.0  0.0 H	1 RES1 0.0
+6 S3	0.0  -2.531681  0.0 S.3	1 RES1 0.0
+7 H3	0.0  -3.939045  0.0 H	1 RES1 0.0
+8 S4	-2.531681  0.0  0.0 S.3	1 RES1 0.0
+9 H4	-3.939045  0.0  0.0 H	1 RES1 0.0
+10 S5	0.0  0.0  2.564903 S.3	1 RES1 0.0
+11 H5	0.0  0.0  3.972267 H	1 RES1 0.0
+12 S6	0.0  0.0  -2.520608 S.3	1 RES1 0.0
+13 H6	0.0  0.0  -3.927972 H	1 RES1 0.0
+@<TRIPOS>BOND
+1 1 2 1
+1 1 4 1
+1 1 6 1
+1 1 8 1
+1 1 10 1
+1 1 12 1
+1 2 3 1
+1 4 5 1
+1 6 7 1
+1 8 9 1
+1 10 11 1
+1 12 13 1
+@<TRIPOS>SUBSTRUCTURE
+1 RES1 13
+

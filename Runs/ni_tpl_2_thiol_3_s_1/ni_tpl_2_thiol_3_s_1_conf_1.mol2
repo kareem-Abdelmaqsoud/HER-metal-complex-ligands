@@ -1,0 +1,26 @@
+@<TRIPOS>MOLECULE
+/home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/HER-metal-complex-ligands/Runs//ni_tpl_2_thiol_3_s_1/ni_tpl_2_thiol_3_s_1_conf_1
+7	6	1
+SMALL
+PartialCharges
+****
+Generated from molSimplify
+
+@<TRIPOS>ATOM
+1 Ni1	0.0  0.0  0.0 Ni	1 RES1 0.0
+2 S1	2.23  -0.0  0.0 S.3	1 RES1 0.0
+3 H1	3.637364  0.0  0.0 H	1 RES1 0.0
+4 S2	-1.115  1.931236  0.0 S.3	1 RES1 0.0
+5 H2	-1.818683  3.150049  0.0 H	1 RES1 0.0
+6 S3	-1.115  -1.931236  0.0 S.3	1 RES1 0.0
+7 H3	-1.818683  -3.150049  0.0 H	1 RES1 0.0
+@<TRIPOS>BOND
+1 1 2 1
+1 1 4 1
+1 1 6 1
+1 2 3 1
+1 4 5 1
+1 6 7 1
+@<TRIPOS>SUBSTRUCTURE
+1 RES1 7
+
