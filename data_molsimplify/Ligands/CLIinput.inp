@@ -1,5 +1,5 @@
 # molSimplify input file generated from CLI input
--ligadd S=C1NC=CC=C1
+-ligread S=C1NC=CC=C1
 -ligname 2-mercaptopyridine
 -ligcon 1,3
 -skipANN True
