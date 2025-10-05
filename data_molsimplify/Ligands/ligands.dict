@@ -2,7 +2,7 @@
 # if connecting atoms
 1-octanethiol:1-octanethiol.smi,1-octanethiol,7,build custom custom,BA,0
 12crown4:12crown4.mol,12crown4,6 9 0 3,build tetradentate,N,0
-2-mercaptopyridine:2-mercaptopyridine.smi,2-mercaptopyridine,0,build custom custom,BA,0
+2-mercaptopyridine:2-mercaptopyridine.smi,2-mercaptopyridine,0 2,build custom custom,BA,0
 Hpyrrole:Hpyrrole.mol,Hpyrl,0,build organic,BA,-1
 N-quinolinylbutyramidate:N-quinolinylbutyramidate.xyz,n-qnbuam,9 2,build small,BA,-1
 N-quinolinylmethylmethinylacetamidate:N-quinolinylmethylmethinylacetamidate.xyz,n-qnbuam3-,9 2 20,build small,BA,-2
