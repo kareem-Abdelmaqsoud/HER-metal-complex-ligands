@@ -1,0 +1,23 @@
+# Input file generated from molSimplify at 10/18/2025 13:39
+-checkdirb True
+-core Ni
+-oxstate 2
+-coord 4
+-geometry thd
+-lig 4methoxyphenol
+-ligocc 4
+-spin 1
+-keepHs auto
+-skipANN True
+-rundir /Users/abdulahmed/Documents/GitHub/HER-metal-complex-ligands/Runs
+-ffoption N
+-nconfs 1
+-charge 2
+-calccharge True
+-distort 0
+-qccode terachem
+-runtyp energy
+-method b3lyp
+-basis lacvps_ecp
+-jsched sge
+-bcharge 0

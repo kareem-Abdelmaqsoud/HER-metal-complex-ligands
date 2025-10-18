@@ -1,0 +1,82 @@
+# name:molfile,connection atom index,maximum denticity
+au:Au.mol,0,8
+chromium:Cr.mol,0,8
+chromiumporphyrin:Crporphyrin.mol,10 31 11 18 32 32,1
+co:Co.mol,0,8
+cobalt:Co.mol,0,8
+cobaltporphyrin:Coporphyrin.mol,10 31 11 18 32 32,1
+copper:Cu.mol,0,8
+copperporphyrin:Cuporphyrin.mol,10 31 11 18 32 32,1
+cr:Cr.mol,0,8
+cu:Cu.mol,0,8
+fe:Fe.mol,0,8
+fen4py:fen4py.xyz,0,1
+fen4pyo:fen4pyO.xyz,49,1
+fenh3o:fenh3O.xyz,21,1
+mn3nh3o:mn3nh3o.xyz,21,1
+mn5nh3o:mn5nh3o.xyz,21,1
+cr4nh3o:cr4nh3o.xyz,21,1
+fe2o2:Fe2O2.xyz,4 5 6 7 8 9 10 11,8
+ferrocene:ferrocene.mol,1 9 4 6 2 10 5 8 3 7,1
+ferrcore:ferrcore.xyz,0,1
+gold:Au.mol,0,8
+iron:Fe.mol,0,8
+ironporphyrin:Feporphyrin.mol,10 31 11 18 32 32,1
+manganese:Mn.mol,0,8
+manganeseporphyrin:Mnporphyrin.mol,10 31 11 18 32 32,1
+mn:Mn.mol,0,8
+mo:Mo.mol,0,8
+molybdenum:Mo.mol,0,8
+ni:Ni.mol,0,8
+nickel:Ni.mol,0,8
+nickelporphyrin:Niporphyrin.mol,10 31 11 18 32 32,1
+palladium:Pd.mol,0,8
+pd:Pd.mol,0,8
+platinum:Pt.mol,0,8
+pt:Pt.mol,0,8
+rh:Rh.mol,0,8
+rhodium:Rh.mol,0,8
+ru:Ru.mol,0,8
+ruthenium:Ru.mol,0,8
+sc:Sc.mol,0,8
+scandium:Sc.mol,0,8
+scandiumporphyrin:Scporphyrin.mol,10 31 11 18 32 32,1
+ti:Ti.mol,0,8
+titanium:Ti.mol,0,8
+titaniumrphyrin:Tiporphyrin.mol,10 31 11 18 32 32,1
+v:V.mol,0,8
+vanadium:V.mol,0,8
+vanadiumporphyrin:Vporphyrin.mol,10 31 11 18 32 32,1
+y:Y.mol,0,8
+yttrium:Y.mol,0,8
+zinc:Zn.mol,0,8
+zincporphyrin:Znporphyrin.mol,10 31 11 18 32 32,1
+zn:Zn.mol,0,8
+zirconium:Zr.mol,0,8
+zr:Zr.mol,0,8
+niobium:Nb.mol,0,8
+nb:Nb.mol,0,8
+technetium:Tc.mol,0,8
+tc:Tc.mol,0,8
+silver:Ag.mol,0,8
+ag:Ag.mol,0,8
+cadmium:Cd.mol,0,8
+cd:Cd.mol,0,8
+lanthanum:La.mol,0,8
+la:La.mol,0,8
+hafnium:Hf.mol,0,8
+hf:Hf.mol,0,8
+tantalum:Ta.mol,0,8
+ta:Ta.mol,0,8
+tungsten:W.mol,0,8
+w:W.mol,0,8
+rhenium:Re.mol,0,8
+re:Re.mol,0,8
+osmium:Os.mol,0,8
+os:Os.mol,0,8
+iridium:Ir.mol,0,8
+ir:Ir.mol,0,8
+mercury:Hg.mol,0,8
+hg:Hg.mol,0,8
+n2ots:N2OTS.xyz,0,5
+zncat:zncat.xyz,0,4

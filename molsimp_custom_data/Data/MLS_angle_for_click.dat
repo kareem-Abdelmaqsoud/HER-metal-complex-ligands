@@ -1,0 +1,8 @@
+# Default data for bond lengths (in A) between metal, connection atom and ligand
+# keys are metal, ox state, spin multiplicity, substrate, C-M-cpoint angle, rO-C-Ca angle
+# Default
+Cu - - - 90
+## azide
+# DOI = 10.1021/om700573h
+Cu - - N-quinolinylbutyramidate 90
+Cu 1 1 N-quinolinylbutyramidate 90

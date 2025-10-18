@@ -1,0 +1,48 @@
+# Default data for bond lengths (in A) between metal, connection atom and ligand
+# keys are metal, ox state, spin multiplicity, reacting atom, bondl_m3D, bondl_sub, bondl_core3D
+# hat, reacting atom = H
+Co - - H 1.30 1.20 1.80
+Co 4 2 H 1.32 1.19 1.82
+Co 4 4 H 1.25 1.25 1.77
+Cr - - H 1.30 1.20 1.80
+Cr 4 3 H 1.32 1.21 1.81
+Fe - - H 1.30 1.20 1.80
+Fe 4 3 H 1.36 1.17 1.78
+Fe 4 5 H 1.28 1.24 1.81
+Fe 5 2 H 1.27 1.24 1.74
+Fe 5 4 H 1.25 1.27 1.78
+Mn - - H 1.30 1.25 1.75
+Mn 4 2 H 1.32 1.21 1.75
+Mn 4 4 H 1.30 1.24 1.77
+Mn 5 3 H 1.27 1.26 1.76
+# oat, reacting atom = N
+Co - - N 1.14 1.55 1.87
+Co 4 2 N 1.15 1.50 1.90
+Co 4 4 N 1.13 1.60 1.85
+Cr - - N 1.14 1.61 1.96
+Cr 4 3 N 1.14 1.61 1.96
+Fe - - N 1.16 1.60 1.83
+Fe 4 3 N 1.14 1.52 1.90
+Fe 4 5 N 1.25 1.60 1.88
+Fe 5 2 N 1.11 1.62 1.77
+Fe 5 4 N 1.13 1.65 1.88
+Mn - - N 1.13 1.50 1.87
+Mn 4 4 N 1.11 1.55 1.80
+Mn 5 3 N 1.15 1.45 1.94
+Cu - - N 1.90 1.20 1.26
+# cat, reacting atom = C
+Co - - C 1.37 2.10 1.70
+Co 4 2 C 1.37 2.10 1.70
+Co 4 4 C 1.37 2.10 1.70
+Cr - - C 1.37 2.10 1.70
+Cr 4 3 C 1.37 2.10 1.70
+Cr 5 2 C 1.37 2.10 1.70
+Fe - - C 1.37 2.10 1.70
+Fe 4 3 C 1.37 2.10 1.70
+Fe 4 5 C 1.37 2.10 1.70
+Fe 5 2 C 1.37 2.10 1.70
+Fe 5 4 C 1.37 2.10 1.70
+Mn - - C 1.37 2.10 1.70
+Mn 4 2 C 1.37 2.10 1.70
+Mn 4 4 C 1.37 2.10 1.70
+Mn 5 3 C 1.37 2.10 1.70
