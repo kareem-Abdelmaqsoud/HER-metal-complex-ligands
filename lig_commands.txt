@@ -41,3 +41,11 @@ molsimplify -core Ni -geometry oct -coord 6 -lig ethylpiperidine3carboxylate -li
 molsimplify -core Ni -geometry oct -coord 6 -lig 2_2bipyridyl -ligocc 3 -oxstate 2 -spin 1 -skipANN True
 molsimplify -core Ni -geometry oct -coord 6 -lig 1_10phenanthroline_anhyd -ligocc 3 -oxstate 2 -spin 1 -skipANN True
 molsimplify -core Ni -geometry oct -coord 6 -lig 2mercaptopyridine -ligocc 3 -oxstate 2 -spin 1 -skipANN True
+
+# Badjobs
+2,6 diphenyl pyridine
+1,10-phenanthroline
+2-bromoethylamine hydrobromide
+4-hydroxy-2,2,6,6-tetramethylpiperidine
+Ethyl piperidine-3-carboxylate
+piperidine
