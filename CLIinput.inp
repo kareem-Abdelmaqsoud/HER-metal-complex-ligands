@@ -1,5 +1,5 @@
 # molSimplify input file generated from CLI input
--ligadd S=C1NC=CC=C1
--ligname 2-mercaptopyridine
--ligcon 1,3
+-ligadd c1ccc(cc1)P(c2ccccc2)c3ccccc3
+-ligname triphenylphosphine
+-ligcon 7
 -skipANN True

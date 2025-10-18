@@ -1,0 +1,22 @@
+# Input file generated from molSimplify at 10/18/2025 22:09
+-checkdirb True
+-core Ni
+-oxstate 2
+-coord 6
+-geometry oct
+-lig 2-Mercapto-6-methylpyridine
+-ligocc 3
+-spin 1
+-keepHs auto
+-rundir /home/jovyan/shared-scratch-kabdelma-pvc/kabdelma/HER-metal-complex-ligands/Runs
+-ffoption N
+-nconfs 1
+-charge 2
+-calccharge True
+-distort 0
+-qccode terachem
+-runtyp energy
+-method b3lyp
+-basis lacvps_ecp
+-jsched sge
+-bcharge 0

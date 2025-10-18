@@ -1,0 +1,5 @@
+# molSimplify input file generated from CLI input
+-ligadd Cc1cccc(S)n1
+-ligname 2-Mercapto-6-methylpyridine
+-ligcon 7,8
+-skipANN True

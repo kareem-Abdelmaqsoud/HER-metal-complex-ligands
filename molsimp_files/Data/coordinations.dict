@@ -1,0 +1,13 @@
+# coordinations defined as: Coordination number: full_name short_name/file_name
+1: none no
+2: linear li
+3: trigonal_planar tpl
+4: square_planar sqp
+4: tetrahedral thd
+5: square_pyramidal spy
+5: trigonal_bipyramidal tbp
+6: octahedral oct
+6: trigonal_prismatic tpr
+7: pentagonal_bipyramidal pbp
+8: square_antiprismatic sqap
+8: trigonal_dodecahedral tdhd

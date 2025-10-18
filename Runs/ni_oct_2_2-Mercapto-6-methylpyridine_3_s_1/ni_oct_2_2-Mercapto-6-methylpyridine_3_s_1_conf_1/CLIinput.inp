@@ -1,0 +1,5 @@
+# molSimplify input file generated from CLI input
+-ligadd C1=CC(=S)NC=C1Br
+-ligname 3-Bromo-6-mercaptopyridine
+-ligcon 4,5
+-skipANN True

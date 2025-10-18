@@ -1,0 +1,212 @@
+# Default data for bond lengths (in A) between metal, connection atom and ligand
+# keys are metal, ox state, spin multiplicity, connection atom of ligand, ligand
+Co	-	-	N	-		2.15
+Co	-	-	C	-		1.96
+Co	-	-	O	-		2.01
+Co	-	-	N	ammonia		2.23
+Co	2	2	N	ammonia		2.10	# tpss def2TZVP
+Co	2	4	N	ammonia		2.20	# tpss def2TZVP
+Co	3	1	N	ammonia		2.00	# tpss def2TZVP
+Co	3	3	N	ammonia		2.09	# tpss def2TZVP
+Co	3	5	N	ammonia		2.17	# tpss def2TZVP
+Co	-	-	C	carbonyl	1.96
+Co	2	2	C	carbonyl	2.00	# tpss def2TZVP
+Co	2	4	C	carbonyl	2.17	# tpss def2TZVP
+Co	3	1	C	carbonyl	1.93	# tpss def2TZVP
+Co	3	3	C	carbonyl	2.08	# tpss def2TZVP
+Co	3	5	C	carbonyl	2.21	# tpss def2TZVP
+Co	-	-	O	water		2.01
+Co	2	2	O	water		2.04	# tpss def2TZVP
+Co	2	4	O	water		2.32	# tpss def2TZVP
+Co	3	1	O	water		1.92	# tpss def2TZVP
+Co	3	3	O	water		1.97	# tpss def2TZVP
+Co	3	5	O	water		2.01	# tpss def2TZVP
+Co	-	-	N	hydrocyanide	2.14
+Co	-	-	N	bipy		2.09
+Co	4	2	O	oxo		1.65
+Co	4	4	O	oxo		1.65
+Co	4	6	O	oxo		1.65
+Co	5	1	O	oxo		1.65
+Co	5	3	O	oxo		1.65
+Co	5	5	O	oxo		1.65
+Cr	-	-	N	-		2.20
+Cr	-	-	C	-		2.09
+Cr	-	-	O	-		2.09
+Cr	-	-	N	ammonia		2.20
+Cr	2	1	N	ammonia		2.20	# tpss def2TZVP
+Cr	2	3	N	ammonia		2.16	# tpss def2TZVP
+Cr	2	5	N	ammonia		2.32	# tpss def2TZVP
+Cr	3	2	N	ammonia		2.14	# tpss def2TZVP
+Cr	3	4	N	ammonia		2.15	# tpss def2TZVP
+Cr	-	-	C	carbonyl	2.09
+Cr	2	1	C	carbonyl	2.05	# tpss def2TZVP
+Cr	2	3	C	carbonyl	2.05	# tpss def2TZVP
+Cr	2	5	C	carbonyl	2.27	# tpss def2TZVP
+Cr	3	2	C	carbonyl	2.13	# tpss def2TZVP
+Cr	3	4	C	carbonyl	2.15	# tpss def2TZVP
+Cr	-	-	O	water		2.09
+Cr	2	1	O	water		2.07	# tpss def2TZVP
+Cr	2	3	O	water		2.09	# tpss def2TZVP
+Cr	2	5	O	water		2.19	# tpss def2TZVP
+Cr	3	2	O	water		1.99	# tpss def2TZVP
+Cr	3	4	O	water		2.00	# tpss def2TZVP
+Cr	4	1	O	oxo		1.65
+Cr	4	3	O	oxo		1.65
+Cr	5	2	O	oxo		1.65
+Cu	-	-	N	-		2.14
+Cu	-	-	C	-		2.12
+Cu	-	-	O	-		2.28
+Cu	-	-	N	ammonia		2.14
+Cu	2	2	N	ammonia		2.19	# tpss def2TZVP
+Cu	3	1	N	ammonia		2.11	# tpss def2TZVP
+Cu	3	3	N	ammonia		2.11	# tpss def2TZVP
+Cu	-	-	C	carbonyl	2.12
+Cu	3	1	C	carbonyl	2.13	# tpss def2TZVP
+Cu	3	3	C	carbonyl	2.13	# tpss def2TZVP
+Cu	-	-	O	water		2.28
+Cu	2	2	O	water		2.28	# tpss def2TZVP
+Fe	-	-	N	-		2.10
+Fe	-	-	C	-		2.03
+Fe	-	-	O	-		2.08
+Fe	-	-	N	ammonia		2.03
+Fe	2	1	N	ammonia		2.10	# b3lyp lacvps
+Fe	2	3	N	ammonia		2.43	# tpss def2TZVP
+Fe	2	5	N	ammonia		2.29	# b3lyp lacvps
+Fe	3	2	N	ammonia		2.06	# b3lyp lacvps
+Fe	3	4	N	ammonia		2.13	# tpss def2TZVP
+Fe	3	6	N	ammonia		2.23	# b3lyp lacvps
+Fe	-	-	C	carbonyl	1.94
+Fe	1	1	C	carbonyl	1.94	# b3lyp lacvps
+Fe	2	3	C	carbonyl	2.06	# tpss def2TZVP
+Fe	2	5	C	carbonyl	2.33	# b3lyp lacvps
+Fe	3	2	C	carbonyl	2.02	# b3lyp lacvps
+Fe	3	4	C	carbonyl	2.14	# tpss def2TZVP
+Fe	3	6	C	carbonyl	2.30	# b3lyp lacvps
+Fe	-	-	O	water		2.08
+Fe	2	1	O	water		1.98	# tpss def2TZVP
+Fe	2	3	O	water		2.08	# tpss def2TZVP
+Fe	2	5	O	water		2.12	# tpss def2TZVP
+Fe	3	2	O	water		1.93	# tpss def2TZVP
+Fe	3	4	O	water		1.99	# tpss def2TZVP
+Fe	3	6	O	water		2.05	# tpss def2TZVP
+Fe	2	1	C	cyanide		2.03	# b3lyp lacvps
+Fe	2	5	C	cyanide		2.46	# b3lyp lacvps
+Fe	3	2	C	cyanide		1.99	# b3lyp lacvps
+Fe	3	6	C	cyanide		2.24	# b3lyp lacvps
+Fe	-	-	C	hydrocyanide	2.20
+Fe	2	1	C	hydrocyanide	1.92	# b3lyp lacvps
+Fe	2	5	C	hydrocyanide	2.27	# b3lyp lacvps
+Fe	3	2	C	hydrocyanide	1.97	# b3lyp lacvps
+Fe	3	6	C	hydrocyanide	2.22	# b3lyp lacvps
+Fe	-	-	N	hydroisocyanide	1.95
+Fe	-	-	N	terpy		2.17
+Fe	2	1	N	terpy		1.89	# b3lyp lacvps
+Fe	2	5	N	terpy		2.17	# b3lyp lacvps
+Fe	3	2	N	terpy		1.98	# b3lyp lacvps
+Fe	3	6	N	terpy		2.14	# b3lyp lacvps
+Fe	-	-	N	bipy		2.01
+Fe	2	1	N	bipy		2.02	# b3lyp lacvps
+Fe	2	5	N	bipy		2.23	# b3lyp lacvps
+Fe	3	2	N	bipy		2.00	# b3lyp lacvps
+Fe	3	6	N	bipy		2.15	# b3lyp lacvps
+Fe	2	5	O	oxo		1.61
+Fe	4	1	O	oxo		1.65
+Fe	4	3	O	oxo		1.65
+Fe	4	5	O	oxo		1.65
+Fe	5	2	O	oxo		1.65
+Fe	5	4	O	oxo		1.65
+Fe	-	-	N	isothiocyanate	2.06
+Mn	-	-	N	-		2.19
+Mn	-	-	C	-		2.01
+Mn	-	-	O	-		2.10
+Mn	-	-	N	ammonia		2.19
+Mn	2	2	N	ammonia		2.09	# tpss def2TZVP
+Mn	2	4	N	ammonia		2.23	# tpss def2TZVP
+Mn	2	6	N	ammonia		2.33	# tpss def2TZVP
+Mn	3	1	N	ammonia		2.09	# tpss def2TZVP
+Mn	3	3	N	ammonia		2.08	# tpss def2TZVP
+Mn	-	-	C	carbonyl	2.01
+Mn	2	2	C	carbonyl	1.96	# tpss def2TZVP
+Mn	2	4	C	carbonyl	2.16	# tpss def2TZVP
+Mn	2	6	C	carbonyl	2.35	# tpss def2TZVP
+Mn	3	1	C	carbonyl	2.05	# tpss def2TZVP
+Mn	3	3	C	carbonyl	2.05	# tpss def2TZVP
+Mn	3	5	C	carbonyl	2.22	# tpss def2TZVP
+Mn	-	-	O	water		2.10
+Mn	2	2	O	water		2.06	# tpss def2TZVP
+Mn	2	4	O	water		2.32	# tpss def2TZVP
+Mn	2	6	O	water		2.18	# tpss def2TZVP
+Mn	3	1	O	water		1.97	# tpss def2TZVP
+Mn	3	3	O	water		1.95	# tpss def2TZVP
+Mn	3	5	O	water		2.02	# tpss def2TZVP
+Mn	4	2	O	oxo		1.65
+Mn	4	4	O	oxo		1.65
+Mn	5	1	O	oxo		1.65
+Mn	5	3	O	oxo		1.65
+Mo	0	7	O	water		2.40	# b3lyp lacvps
+Mo	2	5	O	water		2.20	# b3lyp lacvps
+Mo	2	5	O	hydroxyl	2.10	# b3lyp lacvps
+Mo	4	3	O	water		2.39	# b3lyp lacvps
+Mo	4	3	O	hydroxyl	1.97	# b3lyp lacvps
+Mo	6	1	O	hydroxyl	1.89	# b3lyp lacvps
+Ni	-	-	N	-		2.14
+Ni	-	-	C	-		2.14
+Ni	-	-	O	-		2.00
+Ni	-	-	N	ammonia		2.14
+Ni	2	1	N	ammonia		2.13	# tpss def2TZVP
+Ni	2	3	N	ammonia		2.14	# tpss def2TZVP
+Ni	3	4	N	ammonia		2.14	# tpss def2TZVP
+Ni	-	-	C	carbonyl	2.14
+Ni	2	1	C	carbonyl	2.08	# tpss def2TZVP
+Ni	2	3	C	carbonyl	2.09	# tpss def2TZVP
+Ni	3	4	C	carbonyl	2.17	# tpss def2TZVP
+Ni	-	-	O	water		2.00
+Ni	2	1	O	water		2.04	# tpss def2TZVP
+Ni	2	3	O	water		2.04	# tpss def2TZVP
+Ni	3	2	O	water		1.96	# tpss def2TZVP
+Ni	3	4	O	water		1.99	# tpss def2TZVP
+Sc	-	-	N	-		2.36
+Sc	-	-	C	-		2.42
+Sc	-	-	O	-		2.19
+Sc	-	-	N	ammonia		2.36
+Sc	2	2	N	ammonia		2.42	# tpss def2TZVP
+Sc	3	1	N	ammonia		2.33	# tpss def2TZVP
+Sc	-	-	C	carbonyl	2.42
+Sc	2	2	C	carbonyl	2.41	# tpss def2TZVP
+Sc	3	1	C	carbonyl	2.44	# tpss def2TZVP
+Sc	-	-	O	water		2.19
+Sc	2	2	O	water		2.26	# tpss def2TZVP
+Sc	3	1	O	water		2.14	# tpss def2TZVP
+Ti	-	-	N	-		2.28
+Ti	-	-	C	-		2.29
+Ti	-	-	O	-		2.14
+Ti	-	-	N	ammonia		2.28
+Ti	2	1	N	ammonia		2.33	# tpss def2TZVP
+Ti	2	3	N	ammonia		2.34	# tpss def2TZVP
+Ti	3	2	N	ammonia		2.25	# tpss def2TZVP
+Ti	-	-	C	carbonyl	2.29
+Ti	2	1	C	carbonyl	2.26	# tpss def2TZVP
+Ti	2	3	C	carbonyl	2.27	# tpss def2TZVP
+Ti	3	2	C	carbonyl	2.32	# tpss def2TZVP
+Ti	-	-	O	water		2.14
+Ti	2	1	O	water		2.19	# tpss def2TZVP
+Ti	2	3	O	water		2.14	# tpss def2TZVP
+Ti	3	2	O	water		2.09	# tpss def2TZVP
+V	-	-	N	-		2.22
+V	-	-	C	-		2.19
+V	-	-	O	-		2.08
+V	-	-	N	ammonia		2.22
+V	2	2	N	ammonia		2.25	# tpss def2TZVP
+V	2	4	N	ammonia		2.26	# tpss def2TZVP
+V	3	1	N	ammonia		2.19	# tpss def2TZVP
+V	3	3	N	ammonia		2.20	# tpss def2TZVP
+V	-	-	C	carbonyl	2.19
+V	2	2	C	carbonyl	2.15	# tpss def2TZVP
+V	2	4	C	carbonyl	2.16	# tpss def2TZVP
+V	3	1	C	carbonyl	2.21	# tpss def2TZVP
+V	3	3	C	carbonyl	2.22	# tpss def2TZVP
+V	-	-	O	water		2.08
+V	2	2	O	water		2.13	# tpss def2TZVP
+V	2	4	O	water		2.14	# tpss def2TZVP
+V	3	1	O	water		2.03	# tpss def2TZVP
+V	3	3	O	water		2.04	# tpss def2TZVP

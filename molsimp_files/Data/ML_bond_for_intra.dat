@@ -1,0 +1,10 @@
+# Default data for bond lengths (in A) between metal, connection atom and ligand
+# keys are metal, ox state, spin multiplicity, C-X BL (bondl_sub), X-M BL (bondl_m3D),C-M BL (bondl_core3D)
+# hat, reacting atom = H
+# DOI = 10.1021/om700573h
+Pd - - H 1.52 1.28 2.84
+Pd 1 1 H 1.52 1.28 2.84
+# cat, reacting atom = C
+Pd - - C 2.09 1.94 2.09
+# DOI = 10.1021/ja0471525
+Cu - - N 1.20 1.90 2.95
