@@ -44,8 +44,11 @@ molsimplify -core Ni -geometry oct -coord 6 -lig 2mercaptopyridine -ligocc 3 -ox
 
 # Badjobs
 2,6 diphenyl pyridine
-1,10-phenanthroline
+1,10-phenanthroline,anhyd
 2-bromoethylamine hydrobromide
 4-hydroxy-2,2,6,6-tetramethylpiperidine
 Ethyl piperidine-3-carboxylate
 piperidine
+
+# Not generated
+2-amino-4-(trifluoromethyl)benzenethiolhydrochloride
