@@ -42,6 +42,30 @@ molsimplify -core Ni -geometry oct -coord 6 -lig 2_2bipyridyl -ligocc 3 -oxstate
 molsimplify -core Ni -geometry oct -coord 6 -lig 1_10phenanthroline_anhyd -ligocc 3 -oxstate 2 -spin 1 -skipANN True
 molsimplify -core Ni -geometry oct -coord 6 -lig 2mercaptopyridine -ligocc 3 -oxstate 2 -spin 1 -skipANN True
 
+
+# Additional commands enumerating binding modes with hydrogen adsorption
+molsimplify -core Ni -geometry tet -coord 4 -lig 4methoxyphenol hydride -ligocc 3 1 -oxstate 2 -spin 1 -skipANN True
+molsimplify -core Ni -geometry tet -coord 4 -lig 4fluoro2nitrophenol hydride -ligocc 3 1 -oxstate 2 -spin 1 -skipANN True
+molsimplify -core Ni -geometry oct -coord 6 -lig 2amino4trifluoromethylbenzenethiolhydrochloride hydride -ligocc 2 2 -oxstate 2 -spin 1 -skipANN True
+molsimplify -core Ni -geometry tet -coord 4 -lig triphenylmethanethiol hydride -ligocc 3 1 -oxstate 2 -spin 1 -skipANN True
+molsimplify -core Ni -geometry tet -coord 4 -lig aniline hydride -ligocc 3 1 -oxstate 2 -spin 1 -skipANN True
+molsimplify -core Ni -geometry oct -coord 6 -lig 2aminobenzethiol hydride -ligocc 2 2 -oxstate 2 -spin 1 -skipANN True
+molsimplify -core Ni -geometry oct -coord 6 -lig ophenylenediamine hydride -ligocc 2 2 -oxstate 2 -spin 1 -skipANN True
+molsimplify -core Ni -geometry oct -coord 6 -lig 2bromoethylaminehydrobromide hydride -ligocc 5 1 -oxstate 2 -spin 1 -skipANN True
+molsimplify -core Ni -geometry oct -coord 6 -lig 3methoxypropylamine hydride -ligocc 5 1 -oxstate 2 -spin 1 -skipANN True
+molsimplify -core Ni -geometry oct -coord 6 -lig ethanolamine hydride -ligocc 2 2 -oxstate 2 -spin 1 -skipANN True
+molsimplify -core Ni -geometry oct -coord 6 -lig pyridine hydride -ligocc 5 1 -oxstate 2 -spin 1 -skipANN True
+molsimplify -core Ni -geometry lin -coord 2 -lig 2_6diphenylpyridine hydride -ligocc 1 1 -oxstate 2 -spin 1 -skipANN True
+molsimplify -core Ni -geometry oct -coord 6 -lig 2_6difluoropyridine hydride -ligocc 5 1 -oxstate 2 -spin 1 -skipANN True
+molsimplify -core Ni -geometry oct -coord 6 -lig piperidine hydride -ligocc 5 1 -oxstate 2 -spin 1 -skipANN True
+molsimplify -core Ni -geometry oct -coord 6 -lig 4hydroxy2_2_6_6tetramethylpiperidine hydride -ligocc 5 1 -oxstate 2 -spin 1 -skipANN True
+molsimplify -core Ni -geometry oct -coord 6 -lig ethylpiperidine3carboxylate hydride -ligocc 5 1 -oxstate 2 -spin 1 -skipANN True
+molsimplify -core Ni -geometry oct -coord 6 -lig 2_2bipyridyl hydride -ligocc 2 2 -oxstate 2 -spin 1 -skipANN True
+molsimplify -core Ni -geometry oct -coord 6 -lig 1_10phenanthroline_anhyd hydride -ligocc 2 2 -oxstate 2 -spin 1 -skipANN True
+molsimplify -core Ni -geometry oct -coord 6 -lig 2mercaptopyridine hydride -ligocc 2 2 -oxstate 2 -spin 1 -skipANN True
+
+
+
 # Badjobs
 2,6 diphenyl pyridine
 1,10-phenanthroline,anhyd
