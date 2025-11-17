@@ -1,13 +1,13 @@
-# Input file generated from molSimplify at 10/18/2025 13:53
+# Input file generated from molSimplify at 11/17/2025 11:45
 -checkdirb True
 -core Ni
 -oxstate 2
 -coord 6
 -geometry oct
--lig 2aminobenzethiol
--ligocc 3
+-lig 2aminobenzethiol,2aminobenzethiol_NH2,hydride
+-ligocc 1,2,2
 -spin 1
--keepHs auto
+-keepHs auto,auto,auto
 -skipANN True
 -rundir /Users/abdulahmed/Documents/GitHub/HER-metal-complex-ligands/Runs
 -ffoption N
@@ -21,3 +21,4 @@
 -basis lacvps_ecp
 -jsched sge
 -bcharge 0
+-name ni_oct_2_2aminobenzethiol_config1_H2

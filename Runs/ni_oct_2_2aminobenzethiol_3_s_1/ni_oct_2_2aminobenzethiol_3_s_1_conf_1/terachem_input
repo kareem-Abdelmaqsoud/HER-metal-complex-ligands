@@ -12,5 +12,5 @@ scf diis+a
 levelshift yes
 levelshiftvala 0.25
 levelshiftvalb 0.25
-coordinates badjob_ni_oct_2_2aminobenzethiol_3_s_1_conf_1.xyz
+coordinates ni_oct_2_2aminobenzethiol_3_s_1_conf_1.xyz
 end

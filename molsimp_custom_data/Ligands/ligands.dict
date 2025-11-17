@@ -9,12 +9,15 @@
 2amino4trifluoromethylbenzenethiolhydrochloride:2amino4trifluoromethylbenzenethiolhydrochloride.smi,2amino4trifluoromethylbenzenethiolhydrochloride,2 9,build custom custom,BA,0
 2amino4trifluoromethylbenzenethiolhydrochloride_mod:2amino4trifluoromethylbenzenethiolhydrochloride_mod.smi,2amino4trifluoromethylbenzenethiolhydrochloride_mod,2 9,build custom custom,BA,0
 2aminobenzethiol:2aminobenzethiol.smi,2aminobenzethiol,0 7,build custom custom,BA,0
+2aminobenzethiol_NH2:2aminobenzethiol_NH2.smi,2aminobenzethiol_NH2,0,build custom custom,BA,1
+2aminobenzethiol_NH3:2aminobenzethiol_NH3.smi,2aminobenzethiol_NH3,7,build custom custom,BA,1
 2bromoethylaminehydrobromide:2bromoethylaminehydrobromide.smi,2bromoethylaminehydrobromide,2,build custom custom,BA,0
 2mercaptopyridine:2mercaptopyridine.smi,2mercaptopyridine,0 2,build custom custom,BA,0
 3methoxypropylamine:3methoxypropylamine.smi,3methoxypropylamine,1 5,build custom custom,BA,0
 4fluoro2nitrophenol:4fluoro2nitrophenol.smi,4fluoro2nitrophenol,0,build custom custom,BA,0
 4hydroxy2_2_6_6tetramethylpiperidine:4hydroxy2_2_6_6tetramethylpiperidine.smi,4hydroxy2_2_6_6tetramethylpiperidine,10,build custom custom,BA,0
 4methoxyphenol:4methoxyphenol.smi,4methoxyphenol,6,build custom custom,BA,0
+H2:H2.smi,H2,0 1,build custom custom,BA,0
 Hpyrrole:Hpyrrole.mol,Hpyrl,0,build organic,BA,-1
 N-quinolinylbutyramidate:N-quinolinylbutyramidate.xyz,n-qnbuam,9 2,build small,BA,-1
 N-quinolinylmethylmethinylacetamidate:N-quinolinylmethylmethinylacetamidate.xyz,n-qnbuam3-,9 2 20,build small,BA,-2
