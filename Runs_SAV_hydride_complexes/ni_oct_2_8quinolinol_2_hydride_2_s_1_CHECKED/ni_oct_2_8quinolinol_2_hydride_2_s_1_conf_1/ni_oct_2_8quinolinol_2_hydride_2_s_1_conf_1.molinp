@@ -1,0 +1,22 @@
+# Input file generated from molSimplify at 11/18/2025 17:11
+-checkdirb True
+-core Ni
+-oxstate 2
+-coord 6
+-geometry oct
+-lig 8quinolinol,hydride
+-ligocc 2,2
+-spin 1
+-keepHs auto,auto
+-skipANN True
+-rundir /home/stefan/Documents/molsimplify-project/.vscode/Runs
+-ffoption N
+-nconfs 1
+-calccharge True
+-distort 0
+-qccode terachem
+-runtyp energy
+-method b3lyp
+-basis lacvps_ecp
+-jsched sge
+-bcharge 0
