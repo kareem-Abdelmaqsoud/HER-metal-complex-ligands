@@ -1,0 +1,23 @@
+3-Aminopyridine-2(1H)-thione,C1=CN=C([S-])C(=C1)N
+2-Mercapto-6-methylpyridine,Cc1cccc([S-])n1
+3-Bromo-6-mercaptopyridine,BrC1=CN=C([S-])C=C1
+6-Mercaptonicotinonitrile,N#CC1=CN=C([S-])C=C1
+3-Bromopyridine-2(1H)-thione,[S-]C1=NC=CC=C1Br
+5-Chloropyridine-2-thiol,[S-]c1ccc(Cl)cn1
+8-Mercaptoquinoline Hydrochloride,[S-]c1cccc2cccnc12
+diphenylamine,[N](c1ccccc1)c2ccccc2
+diisobutylamine,CC[C@H](C)[N][C@H](C)CC
+catechol,[O-]c1ccccc1[O-]
+4 methoxy phenol,COc1ccc([O-])cc1
+4-fluoro-2-nitrophenol,[O-]c1ccc(F)cc1[N+]([O-])=O
+2-amino-4-(trifluoromethyl)benzenethiolhydrochloride,[NH]c1cc(ccc1[S-])C(F)(F)F
+triphenylmethane thiol,[S-]C(c1ccccc1)(c2ccccc2)c3ccccc3
+aniline,[NH]c1ccccc1
+2 amino benzethiol,[NH]c1ccccc1[S-]
+o-phenylene diamine,[NH]c1ccccc1[NH]
+2-bromoethylamine hydrobromide,[NH]CCBr
+3 methoxypropylamine,COCCC[NH]
+ethanolamine,[NH]CC[O-]
+piperidine,C1CC[N]CC1
+"4-hydroxy-2,2,6,6-tetramethylpiperidine",CC1(C)CC(O)CC(C)(C)[N]1
+Ethyl piperidine-3-carboxylate,CCOC(=O)C1CCC[N]C1
