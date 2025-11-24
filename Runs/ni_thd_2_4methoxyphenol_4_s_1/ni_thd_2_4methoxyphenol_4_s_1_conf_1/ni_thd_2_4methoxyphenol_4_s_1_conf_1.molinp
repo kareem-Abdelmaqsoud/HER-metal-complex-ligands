@@ -1,4 +1,4 @@
-# Input file generated from molSimplify at 10/18/2025 13:39
+# Input file generated from molSimplify at 11/23/2025 23:12
 -checkdirb True
 -core Ni
 -oxstate 2
@@ -12,7 +12,7 @@
 -rundir /Users/abdulahmed/Documents/GitHub/HER-metal-complex-ligands/Runs
 -ffoption N
 -nconfs 1
--charge 2
+-charge -2
 -calccharge True
 -distort 0
 -qccode terachem

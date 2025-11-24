@@ -1,16 +1,16 @@
-# Input file generated from molSimplify at 11/17/2025 12:05
+# Input file generated from molSimplify at 11/24/2025 00:57
 -checkdirb True
 -core Ni
 -oxstate 2
 -coord 6
 -geometry oct
--lig C1CCNCC1
+-lig piperidine_mod1
 -ligocc 6
 -spin 1
 -keepHs auto
 -skipANN True
 -rundir /Users/abdulahmed/Documents/GitHub/HER-metal-complex-ligands/Runs
--smicat 2
+-smicat 0
 -ffoption N
 -nconfs 1
 -charge 2

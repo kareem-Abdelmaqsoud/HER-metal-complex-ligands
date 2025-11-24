@@ -4,19 +4,38 @@
 1_10phenanthroline:1_10phenanthroline.smi,1_10phenanthroline,2 12,build custom custom,BA,0
 1_10phenanthroline_anhyd:1_10phenanthroline_anhyd.smi,1_10phenanthroline_anhyd,2 12,build custom custom,BA,0
 2_2bipyridyl:2_2bipyridyl.smi,2_2bipyridyl,4 11,build custom custom,BA,0
+2_6_difluoropyridine:2_6_difluoropyridine.smi,2_6_difluoropyridine,7,build custom custom,BA,0
 2_6difluoropyridine:2_6difluoropyridine.smi,2_6difluoropyridine,7,build custom custom,BA,0
 2_6diphenylpyridine:2_6diphenylpyridine.smi,2_6diphenylpyridine,11,build custom custom,BA,0
+2_bromoethylamine_hydrobromide:2_bromoethylamine_hydrobromide.smi,2_bromoethylamine_hydrobromide,0,build custom custom,BA,0
+2_mercapto_6_methylpyridine:2_mercapto_6_methylpyridine.smi,2_mercapto_6_methylpyridine,6 7,build custom custom,BA,-1
+2_mercaptonicotinic_acid:2_mercaptonicotinic_acid.smi,2_mercaptonicotinic_acid,-1,build custom custom,BA,-2
+2_mercaptonicotinic_acid_mod1:2_mercaptonicotinic_acid_mod1.smi,2_mercaptonicotinic_acid_mod1,-1,build custom custom,BA,-2
+2_mercaptonicotinic_acid_mod2:2_mercaptonicotinic_acid_mod2.smi,2_mercaptonicotinic_acid_mod2,-1,build custom custom,BA,-2
+2_mercaptonicotinic_acid_mod3:2_mercaptonicotinic_acid_mod3.smi,2_mercaptonicotinic_acid_mod3,7 9,build custom custom,BA,-2
 2amino4trifluoromethylbenzenethiolhydrochloride:2amino4trifluoromethylbenzenethiolhydrochloride.smi,2amino4trifluoromethylbenzenethiolhydrochloride,2 9,build custom custom,BA,0
 2amino4trifluoromethylbenzenethiolhydrochloride_mod:2amino4trifluoromethylbenzenethiolhydrochloride_mod.smi,2amino4trifluoromethylbenzenethiolhydrochloride_mod,2 9,build custom custom,BA,0
 2aminobenzethiol:2aminobenzethiol.smi,2aminobenzethiol,0 7,build custom custom,BA,0
 2aminobenzethiol_NH2:2aminobenzethiol_NH2.smi,2aminobenzethiol_NH2,0,build custom custom,BA,1
 2aminobenzethiol_NH3:2aminobenzethiol_NH3.smi,2aminobenzethiol_NH3,7,build custom custom,BA,1
+2aminobenzethiol_NH:2aminobenzethiol_NH.smi,2aminobenzethiol_NH,0,build custom custom,BA,1
+2aminobenzethiol_mod1:2aminobenzethiol_mod1.smi,2aminobenzethiol_mod1,0 7,build custom custom,BA,-1
 2bromoethylaminehydrobromide:2bromoethylaminehydrobromide.smi,2bromoethylaminehydrobromide,2,build custom custom,BA,0
 2mercaptopyridine:2mercaptopyridine.smi,2mercaptopyridine,0 2,build custom custom,BA,0
+3_aminopyridine_2_1H_thione:3_aminopyridine_2_1H_thione.smi,3_aminopyridine_2_1H_thione,2 4,build custom custom,BA,-1
+3_bromo_6_mercaptopyridine:3_bromo_6_mercaptopyridine.smi,3_bromo_6_mercaptopyridine,4 6,build custom custom,BA,-1
+3_bromo_6_mercaptopyridine_mod1:3_bromo_6_mercaptopyridine_mod1.smi,3_bromo_6_mercaptopyridine_mod1,3 5,build custom custom,BA,-1
+3_bromopyridine_2_1H__thione:3_bromopyridine_2_1H__thione.smi,3_bromopyridine_2_1H__thione,0 2,build custom custom,BA,-1
+3_methoxypropylamine:3_methoxypropylamine.smi,3_methoxypropylamine,1 5,build custom custom,BA,0
+3_methoxypropylamine_mod1:3_methoxypropylamine_mod1.smi,3_methoxypropylamine_mod1,5,build custom custom,BA,0
 3methoxypropylamine:3methoxypropylamine.smi,3methoxypropylamine,1 5,build custom custom,BA,0
+4_hydroxy2_2_6_6_tetramethylpiperidine:4_hydroxy2_2_6_6_tetramethylpiperidine.smi,4_hydroxy2_2_6_6_tetramethylpiperidine,10,build custom custom,BA,0
 4fluoro2nitrophenol:4fluoro2nitrophenol.smi,4fluoro2nitrophenol,0,build custom custom,BA,0
 4hydroxy2_2_6_6tetramethylpiperidine:4hydroxy2_2_6_6tetramethylpiperidine.smi,4hydroxy2_2_6_6tetramethylpiperidine,10,build custom custom,BA,0
 4methoxyphenol:4methoxyphenol.smi,4methoxyphenol,6,build custom custom,BA,0
+5_chloropyridine_2_thiol:5_chloropyridine_2_thiol.smi,5_chloropyridine_2_thiol,0 7,build custom custom,BA,-1
+6_mercaptonicotinonitrile:6_mercaptonicotinonitrile.smi,6_mercaptonicotinonitrile,4 6,build custom custom,BA,-1
+8_mercaptoquinoline_hydrochloride:8_mercaptoquinoline_hydrochloride.smi,8_mercaptoquinoline_hydrochloride,0 9,build custom custom,BA,-1
 H2:H2.smi,H2,0 1,build custom custom,BA,0
 Hpyrrole:Hpyrrole.mol,Hpyrl,0,build organic,BA,-1
 N-quinolinylbutyramidate:N-quinolinylbutyramidate.xyz,n-qnbuam,9 2,build small,BA,-1
@@ -32,6 +51,7 @@ alanineB:alanine.mol,Ala,3 11,build functionalize aminoacid,BA,0
 amine:amine.mol,ami,0,functionalize small,N,-1
 ammonia:ammonia.mol,ammo,0,build small,N,0
 aniline:aniline.smi,aniline,0,build custom custom,BA,0
+aniline_mod1:aniline_mod1.smi,aniline_mod1,0,build custom custom,BA,0
 antipyrine:Antipyrine.mol,antipyrine,4,build bulky,BA,0
 arginine:arginine.mol,Arg,3,build functionalize aminoacid,BA,0
 arginineB:arginine.mol,Arg,3 25,build functionalize aminoacid,BA,0
@@ -43,6 +63,8 @@ benzene:benzene.mol,bnz,4,build small organic,BA,-1
 benzene_pi:benzene_pi.mol,bnp,0 1 2 3 4 5 pi,build small organometallic,N,-1
 benzenedithiol:benzenedithiol.mol,benzenedithiol,0 11,build functionalize bidentate,BA,-2
 benzenethiol:benzenethiol.mol,bthil,0,build functionalize small,N,-1
+benzimidazole:benzimidazole.smi,benzimidazole,0 2,build custom custom,BA,0
+benzimidazole_mod1:benzimidazole_mod1.smi,benzimidazole_mod1,2,build custom custom,BA,0
 benzisc:benzylisocy.mol,benzisc,0,bulkymono build,N,0
 bidiazine:bidiazine.mol,diazine,0 1,build bidentate,A,0
 bidiazole:bidiazole.mol,bidiazole,4 9,build bidentate,A,0
@@ -68,6 +90,8 @@ caprolactone:caprolactone.mol,caprolactone,4,bulky mono,N,0
 carbonyl:carbonyl.mol,crbn,0,build small,N,0
 carboxyl:carboxyl.mol,crbx,1,functionalize small,N,-1
 cat:cat.mol,cat,0 7,bulkybi build,BA,-2
+catechol:catechol.smi,catechol,0 7,build custom custom,BA,0
+catechol_mod1:catechol_mod1.smi,catechol_mod1,0 7,build custom custom,BA,-2
 chloride:chloride.mol,chlde,0,build functionalize small,N,-1
 chloropyridine:chloropyridine.mol,chloropyrdine,3,build organic,BA,0
 cl:chloride.mol,chlde,0,build functionalize small,N,-1
@@ -89,7 +113,9 @@ diazine:diazine.mol,diazine,0,build organic,BA,0
 diazole:diazole.mol,diazole,4,build functionalize,A,0
 dicyanamide:dicyanamide.mol,dicyanamide,0,build small,N,-1
 dihydrofuran:dihydrofuran.mol,dihydrofuran,0,build bulkymono,A,0
+diisobutylamine:diisobutylamine.smi,diisobutylamine,4,build custom custom,BA,0
 dimethylamide:NMe2_-1.xyz,nme2,0,build small organic,BA,-1
+diphenylamine:diphenylamine.smi,diphenylamine,0,build custom custom,BA,0
 dmap:dmap.xyz,dmap,10 3 22, build tridentate,N,0
 dmf:dmf.mol,dmf,1, build monodentate,A,0
 dmi:dmi.mol,dmi,0, build monodentate,A,0
@@ -103,8 +129,10 @@ edta:edta.mol,edta,0 1 2 3 4 5,build big,A,-4
 en:en.mol,en,0 1,build bidentate,N,0
 ethanethiol:ethanethiol.mol,ethil,0,build functionalize small,N,-1
 ethanolamine:ethanolamine.mol,ethanolamine,1 7,functionalize bidentate,BA,0
+ethanolamine_mod1:ethanolamine_mod1.smi,ethanolamine_mod1,0 3,build custom custom,BA,-1
 ethbipyridine:ethbipy.mol,ethbip,0 1,build bidentate,BA,0
 ethyl:ethyl.mol,eth,1,functionalize organometallic small,N,-1
+ethyl_piperidine_3_carboxylate:ethyl_piperidine_3_carboxylate.smi,ethyl_piperidine_3_carboxylate,9,build custom custom,BA,0
 ethylamine:ethylamine.mol,ethylamine,1,functionalize small,N,0
 ethylene:ethylene.mol,ethylene,0 1 pi,organometallic small,N,-1
 ethylesteracac:ethylesteracac.mol,ethylesteracac,0 5,build functionalize bidentate,BA,-1
@@ -192,6 +220,7 @@ o-pyridylphenyl:o-pyridylphenylanion.xyz,o-pyphanion,4 12,build small,BA,-1
 o2-:o2-.mol,o2-,0,build functionalize small,N,-2
 o22-:o2.xyz,o22-,0 1,build functionalize small,N,-2
 o2:o2.xyz,o2,0, build small inorganic,B,0
+o_phenylene_diamine:o_phenylene_diamine.smi,o_phenylene_diamine,0 7,build custom custom,BA,0
 och2:och2.mol,och2,0,build functionalize small,N,0
 oethanolamine:oethanolamine.mol,oethanolamine,7,functionalize small,N,0
 ome2:ome2.mol,ome2,0,build small,N,0
@@ -223,6 +252,7 @@ phosphine:phosphine.mol,phosphine,0,build small,N,0
 phosphorine:phosphorine.mol,phob,3,build,BA,0
 phthalocyanine:phthalocyanine.mol,phthalocyanine,30 29 0 2,build tetradentate,A,-2
 piperidine:piperidine.smi,piperidine,3,build custom custom,BA,0
+piperidine_mod1:piperidine_mod1.smi,piperidine_mod1,3,build custom custom,BA,0
 pisc:tbuphisocy.mol,pisc,0,bulkymono build,N,0
 pme3:PMe3.xyz,pme3,0,build small organic,BA,0
 porphyrin:porphyrin.mol,prph,2 3 1 0,build tetradentate,A,-2
@@ -252,6 +282,7 @@ tcnoet:tcnoet.mol,tcnoet,7,build big,N,-2
 tcnoetOH:tcnoetOH.mol,tcnoet,15,build big,BA,-1
 terpy:terpy.mol,trpy,0 1 2,build tridentate,BA,0
 terpyridine:terpy.mol,trpy,0 1 2,build tridentate,BA,0
+testlig:testlig.smi,testlig,0 7,build custom custom,BA,-1
 tetrahydrofuran:tetrahydrofuran.mol,tetrahydrofuran,0,build bulkymono,A,0
 thiane:thiane.mol,thiane,0,build functionalize small,N,0
 thiazole:thiazole.mol,thiazole,4,build functionalize,A,0
@@ -267,6 +298,7 @@ tricyanomethyl:tricyanomethyl.mol,tricyanomethyl,5,build,BA,-1
 trifluoromethyl:trifluoromethyl.mol,trflume,0,functionalize small,BA,-1
 trimethylphosphine:PMe3.xyz,pme3,0,build small organic,BA,0
 triphenylmethanethiol:triphenylmethanethiol.smi,triphenylmethanethiol,0,build custom custom,BA,0
+triphenylmethanethiol_mod1:triphenylmethanethiol_mod1.smi,triphenylmethanethiol_mod1,0,build custom custom,BA,-1
 tryptophan:tryptophan.mol,Trp,3,build functionalize aminoacid,BA,0
 tryptophanB:tryptophan.mol,Trp,3 25,build functionalize aminoacid,BA,0
 tyrosine:tyrosine.mol,Tyr,11,build functionalize aminoacid,BA,0
