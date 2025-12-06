@@ -1,25 +1,22 @@
-# HER-metal-complex-ligands
+# HER–Metal–Complex–Ligands
 
-This project focuses on understanding the effect of ligand choice on the performance of a Nickel metal complex in the Hydrogen Evolution Reaction (HER). This goal to find a correlation between quantum chemistry descriptors and the concentration of hydrogen produced.
+This project investigates how ligand identity influences the performance of a nickel metal complex in the Hydrogen Evolution Reaction (HER). The goal is to identify correlations between quantum-chemical descriptors and the experimentally measured hydrogen production.
 
 ## Initial Approach
 
-Use these to descriptors and check whether they correlate with the experimental results.
+We first examined whether quantum-chemical descriptors correlate with HER activity, beginning with the hydrogen binding energy:
 
-$$
-\Delta E_{\text{bind}} = E(\text{Ni–L}) - E(\text{Ni}) - E(\text{L})
-$$
+\[
+\Delta E\_{\text{bind}} = E(\text{Ni–L–H}) - E(\text{Ni–L}) - \tfrac{1}{2} E(\text{H}\_2)
+\]
 
-The binding energy ($\Delta E_{\text{bind}}$) describes the strength of interaction between the Ni active site and the ligand $L$. A moderate binding strength is essential: too strong binding can block active sites, while too weak binding can reduce the electronic tuning effect of the ligand.
+The binding energy \( \Delta E\_{\text{bind}} \) quantifies the interaction strength between the Ni active site and the ligand \( L \). An optimal binding strength is important:
 
----
-
-$$
-\Delta G_{H} = G(\text{Ni–L–H}) - G(\text{Ni–L}) - \tfrac{1}{2} G(\text{H}_{2})
-$$
-
-The free energy of hydrogen adsorption ($\Delta G_{H}$) is a widely used descriptor for HER performance. An optimal catalyst should have $\Delta G_{H} \approx 0$ so that protons/electrons can adsorb and desorb efficiently. Deviations from zero (either positive or negative) lead to slower reaction kinetics.
+- **Too strong** binding may block the active site and inhibit catalysis.
+- **Too weak** binding may diminish the ligand’s ability to tune the metal center electronically.
 
 ---
 
-Since the ligand binding energy ($\Delta E_{\text{bind}}$) modifies the electronic structure of Ni sites, it directly affects hydrogen adsorption thermodynamics ($\Delta G_{H}$). Therefore, $\Delta E_{\text{bind}}$ and $\Delta G_{H}$ are expected to correlate, together governing the catalytic efficiency for the hydrogen evolution reaction (HER).
+# Data-driven Classification Models
+
+Because the mechanism of hydrogen adsorption is not fully understood, we did not observe a strong correlation between the computed adsorption energies and the measured turnover frequencies. Consequently, we shifted to a data-driven approach, using machine-learning models to classify complexes into **high-activity** and **low-activity** categories.
