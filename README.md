@@ -10,7 +10,7 @@ $$
 \Delta E\_{\text{bind}} = E(\text{Ni–L–H}) - E(\text{Ni–L}) - \tfrac{1}{2} E(\text{H}\_2)
 $$
 
-The binding energy \( \Delta E\_{\text{bind}} \) quantifies the interaction strength between the Ni active site and the ligand \( L \). An optimal binding strength is important:
+The binding energy $( \Delta E\_{\text{bind}} )$ quantifies the interaction strength between the Ni active site and the ligand \( L \). An optimal binding strength is important:
 
 - **Too strong** binding may block the active site and inhibit catalysis.
 - **Too weak** binding may diminish the ligand’s ability to tune the metal center electronically.
