@@ -1,5 +1,0 @@
-# molSimplify input file generated from CLI input
--ligadd c1ccc(cc1)P(c2ccccc2)c3ccccc3
--ligname triphenylphosphine
--ligcon 7
--skipANN True
